@@ -43,4 +43,14 @@ function App() {
 }
 ```
 
+## Prop drilling
+Prop drilling es el proceso de pasar props a componentes hijos que no los necesitan. 
+Cuidado con esto, ya que puede hacer que tu código sea más difícil de mantener si hacemos mucho prop drilling.
+
+## Lifting the state up
+Lifting the state up es el proceso de modificar el estado de un componente padre desde un componente hijo.
+Usando los props, podemos pasar funciones que modifiquen el estado del componente padre desde el componente hijo.
+
+(ver ejemplo en el código donde se modifica el estado de `MoviesList` desde el componente `MovieCard`)
+
   
