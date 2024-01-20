@@ -44,7 +44,7 @@ function App() {
 ```
 
 ## Prop drilling
-Prop drilling es el proceso de pasar props a componentes hijos que no los necesitan. 
+Prop drilling es el proceso de pasar props a componentes hijos repetidas veces. 
 Cuidado con esto, ya que puede hacer que tu código sea más difícil de mantener si hacemos mucho prop drilling.
 
 ## Lifting the state up
